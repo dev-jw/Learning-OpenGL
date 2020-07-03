@@ -1,0 +1,6 @@
+framework module Pods_Hello_Triangle {
+  umbrella header "Pods-Hello_Triangle-umbrella.h"
+
+  export *
+  module * { export * }
+}

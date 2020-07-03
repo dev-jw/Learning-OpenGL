@@ -1,0 +1,1045 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		006A8762C84E6086A4A5FE18BF81847E /* GLTools */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A59A096C5D090B6581A66B3B6C1D3A8A /* Build configuration list for PBXAggregateTarget "GLTools" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GLTools;
+		};
+		5FF25F92411AC95D01C16BAEA72679E6 /* GL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FFB241BC81B34FBBB1319B8959577E2B /* Build configuration list for PBXAggregateTarget "GL" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GL;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1508E3BFA4E0F96A7F2F86F17F302DDF /* Pods-Hello_TriangleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5ECFB88315BC41E753117EF0E9EC76 /* Pods-Hello_TriangleTests-dummy.m */; };
+		318CA49493D2202647B565F363757D8E /* Pods-Hello_Triangle-Hello_TriangleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A33CFFBD1580DE1071FED07273612E /* Pods-Hello_Triangle-Hello_TriangleUITests-dummy.m */; };
+		54839B302F4983474D3EE4659CD9CDBD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		93C9FC9078B08CE9B1D5B280BA940848 /* Pods-Hello_Triangle-Hello_TriangleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EAAA748F7A7E2154BB85CBA40651A3 /* Pods-Hello_Triangle-Hello_TriangleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1F930F61422AC8CBC1798D96F4E4B4E /* Pods-Hello_Triangle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F042A27C12F1683B207EBA156AAC3FF2 /* Pods-Hello_Triangle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E8CABABA66B9C08C937D510FA6791F /* Pods-Hello_TriangleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD68756ABF07A2B5F8F63284A7620F95 /* Pods-Hello_TriangleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD2CE76B983F9A434DEADF382951BDFF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		F1582B39AE08862305C72CA6C7702B53 /* Pods-Hello_Triangle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F330CEBCD39E22EE7F7FA6409ED5DE /* Pods-Hello_Triangle-dummy.m */; };
+		FBFF431629687EC757BCEFA704BF6BAC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		116451E1BEFEF54BBE5EE0CE662111E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006A8762C84E6086A4A5FE18BF81847E;
+			remoteInfo = GLTools;
+		};
+		350861E2B90358455C391CF318108316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B49D4CC970AEBE9E1FF4FAF6FA231C1;
+			remoteInfo = "Pods-Hello_Triangle";
+		};
+		644A6E0E12BBC31FFF8E5DDDABDF16FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006A8762C84E6086A4A5FE18BF81847E;
+			remoteInfo = GLTools;
+		};
+		6B1198007F56F2434D49EDA9ED3C4861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF25F92411AC95D01C16BAEA72679E6;
+			remoteInfo = GL;
+		};
+		9FA2BB021F7909E31937EE97EE774A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF25F92411AC95D01C16BAEA72679E6;
+			remoteInfo = GL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CCC668A65BA59F6CF633577642F124 /* Pods-Hello_Triangle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hello_Triangle.modulemap"; sourceTree = "<group>"; };
+		0556063EB8E06341242B5292AB4CC9B0 /* Pods-Hello_Triangle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hello_Triangle.release.xcconfig"; sourceTree = "<group>"; };
+		0C5ECFB88315BC41E753117EF0E9EC76 /* Pods-Hello_TriangleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hello_TriangleTests-dummy.m"; sourceTree = "<group>"; };
+		143B7FD3AD9A15538C3F9B40BD93BD9F /* Pods-Hello_Triangle-Hello_TriangleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hello_Triangle-Hello_TriangleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D8CCDED2C6BD26120F78EF4F20C026D /* GLShaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLShaderManager.h; path = GLTools/include/GLShaderManager.h; sourceTree = "<group>"; };
+		24DF03C7137E856BB700F239CD408D0F /* Pods-Hello_TriangleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hello_TriangleTests.modulemap"; sourceTree = "<group>"; };
+		25436F0F5BABBDB4F0A49E4D921AEB18 /* GLFrustum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLFrustum.h; path = GLTools/include/GLFrustum.h; sourceTree = "<group>"; };
+		2AECF8AF2E47C76265D7A502DB21C7BE /* GLTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLTools.h; path = GLTools/include/GLTools.h; sourceTree = "<group>"; };
+		33EAAA748F7A7E2154BB85CBA40651A3 /* Pods-Hello_Triangle-Hello_TriangleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hello_Triangle-Hello_TriangleUITests-umbrella.h"; sourceTree = "<group>"; };
+		345A2D70E22F1AD97CA08F5AB0DE06C1 /* glxew.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = glxew.h; path = GL/glxew.h; sourceTree = "<group>"; };
+		36430E26EA66E4E6826BC0EA72E6867C /* Pods-Hello_Triangle-Hello_TriangleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hello_Triangle-Hello_TriangleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A21AF19E4AB22B32E55D250478D814F /* Pods_Hello_TriangleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hello_TriangleTests.framework; path = "Pods-Hello_TriangleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		455E4082922597C637E0515EC3C726E3 /* libGLTools.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGLTools.a; path = GLTools/libGLTools.a; sourceTree = "<group>"; };
+		4836A21D670E71FAF14A6800714A47E5 /* Pods-Hello_TriangleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hello_TriangleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		48A63D6B18D6E851D8162EB02FEC9C63 /* glew.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = glew.h; path = GL/glew.h; sourceTree = "<group>"; };
+		4B25925E01E6C2B7E30CF0C842699359 /* GLMatrixStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLMatrixStack.h; path = GLTools/include/GLMatrixStack.h; sourceTree = "<group>"; };
+		54F11B78A4C8FA04E5548CD821C63F1F /* GLTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLTools.debug.xcconfig; sourceTree = "<group>"; };
+		58F330CEBCD39E22EE7F7FA6409ED5DE /* Pods-Hello_Triangle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hello_Triangle-dummy.m"; sourceTree = "<group>"; };
+		5913A970F45B31567A6811947BE34AAC /* Pods-Hello_TriangleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hello_TriangleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CAAF7BDB8715A9C6137F6A34A39A5AD /* Pods-Hello_TriangleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hello_TriangleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DB37A5A35084C5C83905802376E5613 /* StopWatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StopWatch.h; path = GLTools/include/StopWatch.h; sourceTree = "<group>"; };
+		62A766456B64062B2582CB34F6AC6B49 /* Pods-Hello_TriangleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hello_TriangleTests-Info.plist"; sourceTree = "<group>"; };
+		62CDDA674CCFD07DA920CC111A52482B /* Pods-Hello_Triangle-Hello_TriangleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hello_Triangle-Hello_TriangleUITests.modulemap"; sourceTree = "<group>"; };
+		6CF5E032EE87EDCF150C427C6303526D /* GLTriangleBatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLTriangleBatch.h; path = GLTools/include/GLTriangleBatch.h; sourceTree = "<group>"; };
+		6E177238C31986FBD627AAF707BBF1B8 /* Pods-Hello_Triangle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hello_Triangle-Info.plist"; sourceTree = "<group>"; };
+		783DEE2EC90754399B89BEF7CF119912 /* Pods-Hello_Triangle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hello_Triangle-acknowledgements.plist"; sourceTree = "<group>"; };
+		89BAFF971C35EE43B6D517ECDDA3983E /* GLFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLFrame.h; path = GLTools/include/GLFrame.h; sourceTree = "<group>"; };
+		8BE212C3617DC81FEF4A475F3DF67CE1 /* GLBatchBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLBatchBase.h; path = GLTools/include/GLBatchBase.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4BD7ED74EFD43D28A68D3C04EB4FA1D /* Pods_Hello_Triangle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hello_Triangle.framework; path = "Pods-Hello_Triangle.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F3C8ADEF9E24F654CBD7F58D18E73E /* Pods-Hello_Triangle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hello_Triangle-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC2909DFA5B19294E3FBE47BB0171905 /* GLGeometryTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLGeometryTransform.h; path = GLTools/include/GLGeometryTransform.h; sourceTree = "<group>"; };
+		ADCA0D347BEC32E9791EC44FEE1F0B83 /* GL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GL.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0096C2980AA700AF252AF208D4853B5 /* GL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GL.release.xcconfig; sourceTree = "<group>"; };
+		B40623E6914CDC64DE2A6FE633BDEA0D /* Pods-Hello_Triangle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hello_Triangle.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A9FEB4EADD2997733742FD8E0B4B15 /* Pods-Hello_TriangleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hello_TriangleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB9779217FB8625D53FF2B50F6712C23 /* math3d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = math3d.h; path = GLTools/include/math3d.h; sourceTree = "<group>"; };
+		BC847DA8F607332D6723ACDFE0B8B49A /* GL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GL.debug.xcconfig; sourceTree = "<group>"; };
+		C26804BBAD090475F86A75648BE8101D /* Pods-Hello_Triangle-Hello_TriangleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hello_Triangle-Hello_TriangleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C47FA02719D99A0A60D7B95C7837AFFC /* GLTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C669E4F2FC64F4449B2312B88CC4188D /* Pods-Hello_Triangle-Hello_TriangleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hello_Triangle-Hello_TriangleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D025E5F53257DE65B0351FABD28C2A39 /* Pods-Hello_Triangle-Hello_TriangleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hello_Triangle-Hello_TriangleUITests-Info.plist"; sourceTree = "<group>"; };
+		DD68756ABF07A2B5F8F63284A7620F95 /* Pods-Hello_TriangleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hello_TriangleTests-umbrella.h"; sourceTree = "<group>"; };
+		E0E493F4BB7551FBFE549EC809B06BFD /* wglew.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wglew.h; path = GL/wglew.h; sourceTree = "<group>"; };
+		E2E690DA3B84B57AC5CD5E652F712DB3 /* GLTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLTools.release.xcconfig; sourceTree = "<group>"; };
+		EE76F3F9DE242E11E8DDACC9563127AB /* Pods_Hello_Triangle_Hello_TriangleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hello_Triangle_Hello_TriangleUITests.framework; path = "Pods-Hello_Triangle-Hello_TriangleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F042A27C12F1683B207EBA156AAC3FF2 /* Pods-Hello_Triangle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hello_Triangle-umbrella.h"; sourceTree = "<group>"; };
+		F7A33CFFBD1580DE1071FED07273612E /* Pods-Hello_Triangle-Hello_TriangleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hello_Triangle-Hello_TriangleUITests-dummy.m"; sourceTree = "<group>"; };
+		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FCB68D3E068AF321CEB5EDCE43D656D2 /* GLBatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLBatch.h; path = GLTools/include/GLBatch.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7D944F0BB3D03812F4481EB178E741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54839B302F4983474D3EE4659CD9CDBD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586A580DB5472375756B3AF9039038B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2CE76B983F9A434DEADF382951BDFF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2631FABF03C5FBB44986767D76D48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFF431629687EC757BCEFA704BF6BAC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DD668F5333E55799599E45AF05B88A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ADCA0D347BEC32E9791EC44FEE1F0B83 /* GL.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		100289E1BDCFA5DE3CA28904243949AB /* Pods-Hello_TriangleTests */ = {
+			isa = PBXGroup;
+			children = (
+				24DF03C7137E856BB700F239CD408D0F /* Pods-Hello_TriangleTests.modulemap */,
+				B5A9FEB4EADD2997733742FD8E0B4B15 /* Pods-Hello_TriangleTests-acknowledgements.markdown */,
+				4836A21D670E71FAF14A6800714A47E5 /* Pods-Hello_TriangleTests-acknowledgements.plist */,
+				0C5ECFB88315BC41E753117EF0E9EC76 /* Pods-Hello_TriangleTests-dummy.m */,
+				62A766456B64062B2582CB34F6AC6B49 /* Pods-Hello_TriangleTests-Info.plist */,
+				DD68756ABF07A2B5F8F63284A7620F95 /* Pods-Hello_TriangleTests-umbrella.h */,
+				5913A970F45B31567A6811947BE34AAC /* Pods-Hello_TriangleTests.debug.xcconfig */,
+				5CAAF7BDB8715A9C6137F6A34A39A5AD /* Pods-Hello_TriangleTests.release.xcconfig */,
+			);
+			name = "Pods-Hello_TriangleTests";
+			path = "Target Support Files/Pods-Hello_TriangleTests";
+			sourceTree = "<group>";
+		};
+		25CCB7F20A9A56DB0B94A26234145A9F /* GLTools */ = {
+			isa = PBXGroup;
+			children = (
+				FCB68D3E068AF321CEB5EDCE43D656D2 /* GLBatch.h */,
+				8BE212C3617DC81FEF4A475F3DF67CE1 /* GLBatchBase.h */,
+				89BAFF971C35EE43B6D517ECDDA3983E /* GLFrame.h */,
+				25436F0F5BABBDB4F0A49E4D921AEB18 /* GLFrustum.h */,
+				AC2909DFA5B19294E3FBE47BB0171905 /* GLGeometryTransform.h */,
+				4B25925E01E6C2B7E30CF0C842699359 /* GLMatrixStack.h */,
+				1D8CCDED2C6BD26120F78EF4F20C026D /* GLShaderManager.h */,
+				2AECF8AF2E47C76265D7A502DB21C7BE /* GLTools.h */,
+				6CF5E032EE87EDCF150C427C6303526D /* GLTriangleBatch.h */,
+				BB9779217FB8625D53FF2B50F6712C23 /* math3d.h */,
+				5DB37A5A35084C5C83905802376E5613 /* StopWatch.h */,
+				4BA62144AC6E38907746F4B762E4F7E6 /* Frameworks */,
+				A044DA2BB88A8487E1B9B8AC9830A6C8 /* Pod */,
+				F1073C605B56279F76C901F38C045909 /* Support Files */,
+			);
+			name = GLTools;
+			path = ../libs/GLTools;
+			sourceTree = "<group>";
+		};
+		3B326B1B1912433CB222AFCED78A6506 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				48A63D6B18D6E851D8162EB02FEC9C63 /* glew.h */,
+				345A2D70E22F1AD97CA08F5AB0DE06C1 /* glxew.h */,
+				E0E493F4BB7551FBFE549EC809B06BFD /* wglew.h */,
+				03DD668F5333E55799599E45AF05B88A /* Pod */,
+				DF239D3DA1546B7C3925E030065895AC /* Support Files */,
+			);
+			name = GL;
+			path = ../libs/GL;
+			sourceTree = "<group>";
+		};
+		4205A4FE7EB5F558545FD9BBF62B66C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD7ED74EFD43D28A68D3C04EB4FA1D /* Pods_Hello_Triangle.framework */,
+				EE76F3F9DE242E11E8DDACC9563127AB /* Pods_Hello_Triangle_Hello_TriangleUITests.framework */,
+				3A21AF19E4AB22B32E55D250478D814F /* Pods_Hello_TriangleTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA62144AC6E38907746F4B762E4F7E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				455E4082922597C637E0515EC3C726E3 /* libGLTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DF04B19F59FE005E716CA71D0F61BE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B326B1B1912433CB222AFCED78A6506 /* GL */,
+				25CCB7F20A9A56DB0B94A26234145A9F /* GLTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A044DA2BB88A8487E1B9B8AC9830A6C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C47FA02719D99A0A60D7B95C7837AFFC /* GLTools.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B3F76298EE7F4549E739C0FD1EF08AEF /* Pods-Hello_Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				02CCC668A65BA59F6CF633577642F124 /* Pods-Hello_Triangle.modulemap */,
+				A6F3C8ADEF9E24F654CBD7F58D18E73E /* Pods-Hello_Triangle-acknowledgements.markdown */,
+				783DEE2EC90754399B89BEF7CF119912 /* Pods-Hello_Triangle-acknowledgements.plist */,
+				58F330CEBCD39E22EE7F7FA6409ED5DE /* Pods-Hello_Triangle-dummy.m */,
+				6E177238C31986FBD627AAF707BBF1B8 /* Pods-Hello_Triangle-Info.plist */,
+				F042A27C12F1683B207EBA156AAC3FF2 /* Pods-Hello_Triangle-umbrella.h */,
+				B40623E6914CDC64DE2A6FE633BDEA0D /* Pods-Hello_Triangle.debug.xcconfig */,
+				0556063EB8E06341242B5292AB4CC9B0 /* Pods-Hello_Triangle.release.xcconfig */,
+			);
+			name = "Pods-Hello_Triangle";
+			path = "Target Support Files/Pods-Hello_Triangle";
+			sourceTree = "<group>";
+		};
+		BDBFE9C27BD5C85FA363C93F97EF63DF /* Pods-Hello_Triangle-Hello_TriangleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62CDDA674CCFD07DA920CC111A52482B /* Pods-Hello_Triangle-Hello_TriangleUITests.modulemap */,
+				C26804BBAD090475F86A75648BE8101D /* Pods-Hello_Triangle-Hello_TriangleUITests-acknowledgements.markdown */,
+				143B7FD3AD9A15538C3F9B40BD93BD9F /* Pods-Hello_Triangle-Hello_TriangleUITests-acknowledgements.plist */,
+				F7A33CFFBD1580DE1071FED07273612E /* Pods-Hello_Triangle-Hello_TriangleUITests-dummy.m */,
+				D025E5F53257DE65B0351FABD28C2A39 /* Pods-Hello_Triangle-Hello_TriangleUITests-Info.plist */,
+				33EAAA748F7A7E2154BB85CBA40651A3 /* Pods-Hello_Triangle-Hello_TriangleUITests-umbrella.h */,
+				C669E4F2FC64F4449B2312B88CC4188D /* Pods-Hello_Triangle-Hello_TriangleUITests.debug.xcconfig */,
+				36430E26EA66E4E6826BC0EA72E6867C /* Pods-Hello_Triangle-Hello_TriangleUITests.release.xcconfig */,
+			);
+			name = "Pods-Hello_Triangle-Hello_TriangleUITests";
+			path = "Target Support Files/Pods-Hello_Triangle-Hello_TriangleUITests";
+			sourceTree = "<group>";
+		};
+		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				84DF04B19F59FE005E716CA71D0F61BE /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				4205A4FE7EB5F558545FD9BBF62B66C5 /* Products */,
+				E56D87DF6642E4625AF84EC450ED9D91 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF239D3DA1546B7C3925E030065895AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC847DA8F607332D6723ACDFE0B8B49A /* GL.debug.xcconfig */,
+				B0096C2980AA700AF252AF208D4853B5 /* GL.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/GL";
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E56D87DF6642E4625AF84EC450ED9D91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F76298EE7F4549E739C0FD1EF08AEF /* Pods-Hello_Triangle */,
+				BDBFE9C27BD5C85FA363C93F97EF63DF /* Pods-Hello_Triangle-Hello_TriangleUITests */,
+				100289E1BDCFA5DE3CA28904243949AB /* Pods-Hello_TriangleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F1073C605B56279F76C901F38C045909 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54F11B78A4C8FA04E5548CD821C63F1F /* GLTools.debug.xcconfig */,
+				E2E690DA3B84B57AC5CD5E652F712DB3 /* GLTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/GLTools";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		156056319142F432527F631BD7F8C2AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F930F61422AC8CBC1798D96F4E4B4E /* Pods-Hello_Triangle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A58EA721B2194AE7D423D2693AB3352 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E8CABABA66B9C08C937D510FA6791F /* Pods-Hello_TriangleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D617F7DFE94750DE9D468F382CDAF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C9FC9078B08CE9B1D5B280BA940848 /* Pods-Hello_Triangle-Hello_TriangleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A3A17C8607AF9AC5BDB3EEF0DC8EAC7 /* Pods-Hello_Triangle-Hello_TriangleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E1153724AADF433036DAA5CA7427F7 /* Build configuration list for PBXNativeTarget "Pods-Hello_Triangle-Hello_TriangleUITests" */;
+			buildPhases = (
+				C7D617F7DFE94750DE9D468F382CDAF2 /* Headers */,
+				47F31F0141E884EA6DBFD77911455132 /* Sources */,
+				6C2631FABF03C5FBB44986767D76D48E /* Frameworks */,
+				D3BB456DB3D0A28E71A839935B49320C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE3AF3CA65553BD5E9B56529F2328953 /* PBXTargetDependency */,
+				BAD68E1541AB00F7015A68EFFB5A2B11 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hello_Triangle-Hello_TriangleUITests";
+			productName = "Pods-Hello_Triangle-Hello_TriangleUITests";
+			productReference = EE76F3F9DE242E11E8DDACC9563127AB /* Pods_Hello_Triangle_Hello_TriangleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		870E33FF9CACCE952ED389C9EF9977FF /* Pods-Hello_TriangleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE76B11763C436367F714891DFE0EFA /* Build configuration list for PBXNativeTarget "Pods-Hello_TriangleTests" */;
+			buildPhases = (
+				9A58EA721B2194AE7D423D2693AB3352 /* Headers */,
+				34CDA754BE154456AFDA0667C79FA537 /* Sources */,
+				0F7D944F0BB3D03812F4481EB178E741 /* Frameworks */,
+				B417131537083010A229665AC5625F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0438602073BACBED0A9908E9221F1E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hello_TriangleTests";
+			productName = "Pods-Hello_TriangleTests";
+			productReference = 3A21AF19E4AB22B32E55D250478D814F /* Pods_Hello_TriangleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B49D4CC970AEBE9E1FF4FAF6FA231C1 /* Pods-Hello_Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9128030F5D2E6ADA95EB4DFA40B05582 /* Build configuration list for PBXNativeTarget "Pods-Hello_Triangle" */;
+			buildPhases = (
+				156056319142F432527F631BD7F8C2AA /* Headers */,
+				404F04CAFF4EAAE5C14729370B9190F5 /* Sources */,
+				586A580DB5472375756B3AF9039038B5 /* Frameworks */,
+				123AA0142D52B8E9E1AA2310DCA90B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E7575ACC8D1D0FA2B32507A9F8E8779 /* PBXTargetDependency */,
+				B61FA756333E095AC60CFAAD123FCDD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hello_Triangle";
+			productName = "Pods-Hello_Triangle";
+			productReference = A4BD7ED74EFD43D28A68D3C04EB4FA1D /* Pods_Hello_Triangle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4205A4FE7EB5F558545FD9BBF62B66C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF25F92411AC95D01C16BAEA72679E6 /* GL */,
+				006A8762C84E6086A4A5FE18BF81847E /* GLTools */,
+				9B49D4CC970AEBE9E1FF4FAF6FA231C1 /* Pods-Hello_Triangle */,
+				7A3A17C8607AF9AC5BDB3EEF0DC8EAC7 /* Pods-Hello_Triangle-Hello_TriangleUITests */,
+				870E33FF9CACCE952ED389C9EF9977FF /* Pods-Hello_TriangleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		123AA0142D52B8E9E1AA2310DCA90B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B417131537083010A229665AC5625F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BB456DB3D0A28E71A839935B49320C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CDA754BE154456AFDA0667C79FA537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1508E3BFA4E0F96A7F2F86F17F302DDF /* Pods-Hello_TriangleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404F04CAFF4EAAE5C14729370B9190F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1582B39AE08862305C72CA6C7702B53 /* Pods-Hello_Triangle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F31F0141E884EA6DBFD77911455132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318CA49493D2202647B565F363757D8E /* Pods-Hello_Triangle-Hello_TriangleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E7575ACC8D1D0FA2B32507A9F8E8779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GL;
+			target = 5FF25F92411AC95D01C16BAEA72679E6 /* GL */;
+			targetProxy = 6B1198007F56F2434D49EDA9ED3C4861 /* PBXContainerItemProxy */;
+		};
+		AE3AF3CA65553BD5E9B56529F2328953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GL;
+			target = 5FF25F92411AC95D01C16BAEA72679E6 /* GL */;
+			targetProxy = 9FA2BB021F7909E31937EE97EE774A50 /* PBXContainerItemProxy */;
+		};
+		B61FA756333E095AC60CFAAD123FCDD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLTools;
+			target = 006A8762C84E6086A4A5FE18BF81847E /* GLTools */;
+			targetProxy = 116451E1BEFEF54BBE5EE0CE662111E1 /* PBXContainerItemProxy */;
+		};
+		BAD68E1541AB00F7015A68EFFB5A2B11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLTools;
+			target = 006A8762C84E6086A4A5FE18BF81847E /* GLTools */;
+			targetProxy = 644A6E0E12BBC31FFF8E5DDDABDF16FF /* PBXContainerItemProxy */;
+		};
+		E0438602073BACBED0A9908E9221F1E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Hello_Triangle";
+			target = 9B49D4CC970AEBE9E1FF4FAF6FA231C1 /* Pods-Hello_Triangle */;
+			targetProxy = 350861E2B90358455C391CF318108316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1DDE674931C7CC8218F7624D8F50A79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC847DA8F607332D6723ACDFE0B8B49A /* GL.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37D60AB7C74E08B194E8BC8CB6F4FA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CAAF7BDB8715A9C6137F6A34A39A5AD /* Pods-Hello_TriangleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hello_TriangleTests/Pods-Hello_TriangleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hello_TriangleTests/Pods-Hello_TriangleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		538C1D6BAECE0346C68FA6D6B730A44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5913A970F45B31567A6811947BE34AAC /* Pods-Hello_TriangleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hello_TriangleTests/Pods-Hello_TriangleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hello_TriangleTests/Pods-Hello_TriangleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6956B67473766C0B6CA845896F09E268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0096C2980AA700AF252AF208D4853B5 /* GL.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6964BF21CA636E53441C454910301D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C669E4F2FC64F4449B2312B88CC4188D /* Pods-Hello_Triangle-Hello_TriangleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hello_Triangle-Hello_TriangleUITests/Pods-Hello_Triangle-Hello_TriangleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hello_Triangle-Hello_TriangleUITests/Pods-Hello_Triangle-Hello_TriangleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		79D5B631537AB8688C80A2D96698A516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0556063EB8E06341242B5292AB4CC9B0 /* Pods-Hello_Triangle.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hello_Triangle/Pods-Hello_Triangle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hello_Triangle/Pods-Hello_Triangle.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DA2719476685AFDE80223E80FA9340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36430E26EA66E4E6826BC0EA72E6867C /* Pods-Hello_Triangle-Hello_TriangleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hello_Triangle-Hello_TriangleUITests/Pods-Hello_Triangle-Hello_TriangleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hello_Triangle-Hello_TriangleUITests/Pods-Hello_Triangle-Hello_TriangleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		909C2692B1875751585A1F1827A4DE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E690DA3B84B57AC5CD5E652F712DB3 /* GLTools.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD255FEE3BEDB095D1FDADC0BFAF4702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F11B78A4C8FA04E5548CD821C63F1F /* GLTools.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF547AE97B0B4E8EC7306395E2A5F589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40623E6914CDC64DE2A6FE633BDEA0D /* Pods-Hello_Triangle.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hello_Triangle/Pods-Hello_Triangle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hello_Triangle/Pods-Hello_Triangle.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */,
+				0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E1153724AADF433036DAA5CA7427F7 /* Build configuration list for PBXNativeTarget "Pods-Hello_Triangle-Hello_TriangleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6964BF21CA636E53441C454910301D45 /* Debug */,
+				7DA2719476685AFDE80223E80FA9340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9128030F5D2E6ADA95EB4DFA40B05582 /* Build configuration list for PBXNativeTarget "Pods-Hello_Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF547AE97B0B4E8EC7306395E2A5F589 /* Debug */,
+				79D5B631537AB8688C80A2D96698A516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59A096C5D090B6581A66B3B6C1D3A8A /* Build configuration list for PBXAggregateTarget "GLTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD255FEE3BEDB095D1FDADC0BFAF4702 /* Debug */,
+				909C2692B1875751585A1F1827A4DE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE76B11763C436367F714891DFE0EFA /* Build configuration list for PBXNativeTarget "Pods-Hello_TriangleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538C1D6BAECE0346C68FA6D6B730A44C /* Debug */,
+				37D60AB7C74E08B194E8BC8CB6F4FA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB241BC81B34FBBB1319B8959577E2B /* Build configuration list for PBXAggregateTarget "GL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDE674931C7CC8218F7624D8F50A79B /* Debug */,
+				6956B67473766C0B6CA845896F09E268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

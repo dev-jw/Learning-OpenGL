@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC2173A4562AEF67DE3ED1E /* Pods_Hello_Triangle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1365A15E1E95A81389F1AE10 /* Pods_Hello_Triangle.framework */; };
+		488D3E7F62445629EC4DC154 /* Pods_Hello_TriangleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCEB38B4CB49C03D7BA5A99 /* Pods_Hello_TriangleTests.framework */; };
+		6D0E844224AF10C9001B1F01 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D0E844124AF10C9001B1F01 /* main.cpp */; };
+		6D4A1BBE24AEC84C0028ADE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A1BBD24AEC84C0028ADE2 /* Assets.xcassets */; };
+		6D4A1BC124AEC84C0028ADE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A1BBF24AEC84C0028ADE2 /* Main.storyboard */; };
+		6D4A1BCF24AEC84C0028ADE2 /* Hello_TriangleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A1BCE24AEC84C0028ADE2 /* Hello_TriangleTests.m */; };
+		6D4A1BDA24AEC84C0028ADE2 /* Hello_TriangleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A1BD924AEC84C0028ADE2 /* Hello_TriangleUITests.m */; };
+		7D04C51FD67BD58E79A45A35 /* Pods_Hello_Triangle_Hello_TriangleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542848E6957C15B366FC6B5F /* Pods_Hello_Triangle_Hello_TriangleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D4A1BCB24AEC84C0028ADE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D4A1BAC24AEC84A0028ADE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D4A1BB324AEC84A0028ADE2;
+			remoteInfo = Hello_Triangle;
+		};
+		6D4A1BD624AEC84C0028ADE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D4A1BAC24AEC84A0028ADE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D4A1BB324AEC84A0028ADE2;
+			remoteInfo = Hello_Triangle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1365A15E1E95A81389F1AE10 /* Pods_Hello_Triangle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_Triangle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220B47E6C36BF20C735B70BD /* Pods-Hello_TriangleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello_TriangleTests.release.xcconfig"; path = "Target Support Files/Pods-Hello_TriangleTests/Pods-Hello_TriangleTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FCEB38B4CB49C03D7BA5A99 /* Pods_Hello_TriangleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_TriangleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		542848E6957C15B366FC6B5F /* Pods_Hello_Triangle_Hello_TriangleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_Triangle_Hello_TriangleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BE1D1D93F99FFBA9894AF0 /* Pods-Hello_Triangle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello_Triangle.release.xcconfig"; path = "Target Support Files/Pods-Hello_Triangle/Pods-Hello_Triangle.release.xcconfig"; sourceTree = "<group>"; };
+		6D0E844124AF10C9001B1F01 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6D4A1BB424AEC84A0028ADE2 /* Hello_Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello_Triangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4A1BBD24AEC84C0028ADE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D4A1BC024AEC84C0028ADE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D4A1BC224AEC84C0028ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4A1BC524AEC84C0028ADE2 /* Hello_Triangle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hello_Triangle.entitlements; sourceTree = "<group>"; };
+		6D4A1BCA24AEC84C0028ADE2 /* Hello_TriangleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hello_TriangleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4A1BCE24AEC84C0028ADE2 /* Hello_TriangleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_TriangleTests.m; sourceTree = "<group>"; };
+		6D4A1BD024AEC84C0028ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4A1BD524AEC84C0028ADE2 /* Hello_TriangleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hello_TriangleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4A1BD924AEC84C0028ADE2 /* Hello_TriangleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_TriangleUITests.m; sourceTree = "<group>"; };
+		6D4A1BDB24AEC84C0028ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A58919DEE5747A91BFF5AE /* Pods-Hello_Triangle-Hello_TriangleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello_Triangle-Hello_TriangleUITests.release.xcconfig"; path = "Target Support Files/Pods-Hello_Triangle-Hello_TriangleUITests/Pods-Hello_Triangle-Hello_TriangleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AAEE5C9449680F21138CF537 /* Pods-Hello_Triangle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello_Triangle.debug.xcconfig"; path = "Target Support Files/Pods-Hello_Triangle/Pods-Hello_Triangle.debug.xcconfig"; sourceTree = "<group>"; };
+		BB832AA34024BFBDB4A31BA7 /* Pods-Hello_TriangleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello_TriangleTests.debug.xcconfig"; path = "Target Support Files/Pods-Hello_TriangleTests/Pods-Hello_TriangleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDCF2E878B1A0B69F60BA80B /* Pods-Hello_Triangle-Hello_TriangleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello_Triangle-Hello_TriangleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hello_Triangle-Hello_TriangleUITests/Pods-Hello_Triangle-Hello_TriangleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D4A1BB124AEC84A0028ADE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC2173A4562AEF67DE3ED1E /* Pods_Hello_Triangle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4A1BC724AEC84C0028ADE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488D3E7F62445629EC4DC154 /* Pods_Hello_TriangleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4A1BD224AEC84C0028ADE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D04C51FD67BD58E79A45A35 /* Pods_Hello_Triangle_Hello_TriangleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D4A1BAB24AEC84A0028ADE2 = {
+			isa = PBXGroup;
+			children = (
+				6D4A1BB624AEC84A0028ADE2 /* Hello_Triangle */,
+				6D4A1BCD24AEC84C0028ADE2 /* Hello_TriangleTests */,
+				6D4A1BD824AEC84C0028ADE2 /* Hello_TriangleUITests */,
+				6D4A1BB524AEC84A0028ADE2 /* Products */,
+				6F1F63456611B4599E770F31 /* Pods */,
+				DC4010050E2B8F475E4E0305 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D4A1BB524AEC84A0028ADE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D4A1BB424AEC84A0028ADE2 /* Hello_Triangle.app */,
+				6D4A1BCA24AEC84C0028ADE2 /* Hello_TriangleTests.xctest */,
+				6D4A1BD524AEC84C0028ADE2 /* Hello_TriangleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D4A1BB624AEC84A0028ADE2 /* Hello_Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				6D4A1BBD24AEC84C0028ADE2 /* Assets.xcassets */,
+				6D4A1BBF24AEC84C0028ADE2 /* Main.storyboard */,
+				6D4A1BC224AEC84C0028ADE2 /* Info.plist */,
+				6D4A1BC524AEC84C0028ADE2 /* Hello_Triangle.entitlements */,
+				6D0E844124AF10C9001B1F01 /* main.cpp */,
+			);
+			path = Hello_Triangle;
+			sourceTree = "<group>";
+		};
+		6D4A1BCD24AEC84C0028ADE2 /* Hello_TriangleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D4A1BCE24AEC84C0028ADE2 /* Hello_TriangleTests.m */,
+				6D4A1BD024AEC84C0028ADE2 /* Info.plist */,
+			);
+			path = Hello_TriangleTests;
+			sourceTree = "<group>";
+		};
+		6D4A1BD824AEC84C0028ADE2 /* Hello_TriangleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D4A1BD924AEC84C0028ADE2 /* Hello_TriangleUITests.m */,
+				6D4A1BDB24AEC84C0028ADE2 /* Info.plist */,
+			);
+			path = Hello_TriangleUITests;
+			sourceTree = "<group>";
+		};
+		6F1F63456611B4599E770F31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE5C9449680F21138CF537 /* Pods-Hello_Triangle.debug.xcconfig */,
+				59BE1D1D93F99FFBA9894AF0 /* Pods-Hello_Triangle.release.xcconfig */,
+				FDCF2E878B1A0B69F60BA80B /* Pods-Hello_Triangle-Hello_TriangleUITests.debug.xcconfig */,
+				99A58919DEE5747A91BFF5AE /* Pods-Hello_Triangle-Hello_TriangleUITests.release.xcconfig */,
+				BB832AA34024BFBDB4A31BA7 /* Pods-Hello_TriangleTests.debug.xcconfig */,
+				220B47E6C36BF20C735B70BD /* Pods-Hello_TriangleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC4010050E2B8F475E4E0305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1365A15E1E95A81389F1AE10 /* Pods_Hello_Triangle.framework */,
+				542848E6957C15B366FC6B5F /* Pods_Hello_Triangle_Hello_TriangleUITests.framework */,
+				3FCEB38B4CB49C03D7BA5A99 /* Pods_Hello_TriangleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D4A1BB324AEC84A0028ADE2 /* Hello_Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4A1BDE24AEC84C0028ADE2 /* Build configuration list for PBXNativeTarget "Hello_Triangle" */;
+			buildPhases = (
+				D2E120F3F0D21EF3E3192104 /* [CP] Check Pods Manifest.lock */,
+				6D4A1BB024AEC84A0028ADE2 /* Sources */,
+				6D4A1BB124AEC84A0028ADE2 /* Frameworks */,
+				6D4A1BB224AEC84A0028ADE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hello_Triangle;
+			productName = Hello_Triangle;
+			productReference = 6D4A1BB424AEC84A0028ADE2 /* Hello_Triangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D4A1BC924AEC84C0028ADE2 /* Hello_TriangleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4A1BE124AEC84C0028ADE2 /* Build configuration list for PBXNativeTarget "Hello_TriangleTests" */;
+			buildPhases = (
+				A383B3EFAEF611C59EB7892C /* [CP] Check Pods Manifest.lock */,
+				6D4A1BC624AEC84C0028ADE2 /* Sources */,
+				6D4A1BC724AEC84C0028ADE2 /* Frameworks */,
+				6D4A1BC824AEC84C0028ADE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D4A1BCC24AEC84C0028ADE2 /* PBXTargetDependency */,
+			);
+			name = Hello_TriangleTests;
+			productName = Hello_TriangleTests;
+			productReference = 6D4A1BCA24AEC84C0028ADE2 /* Hello_TriangleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D4A1BD424AEC84C0028ADE2 /* Hello_TriangleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4A1BE424AEC84C0028ADE2 /* Build configuration list for PBXNativeTarget "Hello_TriangleUITests" */;
+			buildPhases = (
+				AEC08D514E9851937667F146 /* [CP] Check Pods Manifest.lock */,
+				6D4A1BD124AEC84C0028ADE2 /* Sources */,
+				6D4A1BD224AEC84C0028ADE2 /* Frameworks */,
+				6D4A1BD324AEC84C0028ADE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D4A1BD724AEC84C0028ADE2 /* PBXTargetDependency */,
+			);
+			name = Hello_TriangleUITests;
+			productName = Hello_TriangleUITests;
+			productReference = 6D4A1BD524AEC84C0028ADE2 /* Hello_TriangleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D4A1BAC24AEC84A0028ADE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = neotv;
+				TargetAttributes = {
+					6D4A1BB324AEC84A0028ADE2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6D4A1BC924AEC84C0028ADE2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6D4A1BB324AEC84A0028ADE2;
+					};
+					6D4A1BD424AEC84C0028ADE2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6D4A1BB324AEC84A0028ADE2;
+					};
+				};
+			};
+			buildConfigurationList = 6D4A1BAF24AEC84A0028ADE2 /* Build configuration list for PBXProject "Hello_Triangle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D4A1BAB24AEC84A0028ADE2;
+			productRefGroup = 6D4A1BB524AEC84A0028ADE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D4A1BB324AEC84A0028ADE2 /* Hello_Triangle */,
+				6D4A1BC924AEC84C0028ADE2 /* Hello_TriangleTests */,
+				6D4A1BD424AEC84C0028ADE2 /* Hello_TriangleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D4A1BB224AEC84A0028ADE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4A1BBE24AEC84C0028ADE2 /* Assets.xcassets in Resources */,
+				6D4A1BC124AEC84C0028ADE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4A1BC824AEC84C0028ADE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4A1BD324AEC84C0028ADE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A383B3EFAEF611C59EB7892C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hello_TriangleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEC08D514E9851937667F146 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hello_Triangle-Hello_TriangleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E120F3F0D21EF3E3192104 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hello_Triangle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D4A1BB024AEC84A0028ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0E844224AF10C9001B1F01 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4A1BC624AEC84C0028ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4A1BCF24AEC84C0028ADE2 /* Hello_TriangleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4A1BD124AEC84C0028ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4A1BDA24AEC84C0028ADE2 /* Hello_TriangleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D4A1BCC24AEC84C0028ADE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D4A1BB324AEC84A0028ADE2 /* Hello_Triangle */;
+			targetProxy = 6D4A1BCB24AEC84C0028ADE2 /* PBXContainerItemProxy */;
+		};
+		6D4A1BD724AEC84C0028ADE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D4A1BB324AEC84A0028ADE2 /* Hello_Triangle */;
+			targetProxy = 6D4A1BD624AEC84C0028ADE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D4A1BBF24AEC84C0028ADE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D4A1BC024AEC84C0028ADE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D4A1BDC24AEC84C0028ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6D4A1BDD24AEC84C0028ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D4A1BDF24AEC84C0028ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEE5C9449680F21138CF537 /* Pods-Hello_Triangle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hello_Triangle/Hello_Triangle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hello_Triangle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianjingquan.Hello-Triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D4A1BE024AEC84C0028ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59BE1D1D93F99FFBA9894AF0 /* Pods-Hello_Triangle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hello_Triangle/Hello_Triangle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hello_Triangle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianjingquan.Hello-Triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D4A1BE224AEC84C0028ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB832AA34024BFBDB4A31BA7 /* Pods-Hello_TriangleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hello_TriangleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianjingquan.Hello-TriangleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello_Triangle.app/Contents/MacOS/Hello_Triangle";
+			};
+			name = Debug;
+		};
+		6D4A1BE324AEC84C0028ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220B47E6C36BF20C735B70BD /* Pods-Hello_TriangleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hello_TriangleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianjingquan.Hello-TriangleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello_Triangle.app/Contents/MacOS/Hello_Triangle";
+			};
+			name = Release;
+		};
+		6D4A1BE524AEC84C0028ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCF2E878B1A0B69F60BA80B /* Pods-Hello_Triangle-Hello_TriangleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hello_TriangleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianjingquan.Hello-TriangleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hello_Triangle;
+			};
+			name = Debug;
+		};
+		6D4A1BE624AEC84C0028ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A58919DEE5747A91BFF5AE /* Pods-Hello_Triangle-Hello_TriangleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hello_TriangleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dianjingquan.Hello-TriangleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hello_Triangle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D4A1BAF24AEC84A0028ADE2 /* Build configuration list for PBXProject "Hello_Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4A1BDC24AEC84C0028ADE2 /* Debug */,
+				6D4A1BDD24AEC84C0028ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D4A1BDE24AEC84C0028ADE2 /* Build configuration list for PBXNativeTarget "Hello_Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4A1BDF24AEC84C0028ADE2 /* Debug */,
+				6D4A1BE024AEC84C0028ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D4A1BE124AEC84C0028ADE2 /* Build configuration list for PBXNativeTarget "Hello_TriangleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4A1BE224AEC84C0028ADE2 /* Debug */,
+				6D4A1BE324AEC84C0028ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D4A1BE424AEC84C0028ADE2 /* Build configuration list for PBXNativeTarget "Hello_TriangleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4A1BE524AEC84C0028ADE2 /* Debug */,
+				6D4A1BE624AEC84C0028ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D4A1BAC24AEC84A0028ADE2 /* Project object */;
+}
