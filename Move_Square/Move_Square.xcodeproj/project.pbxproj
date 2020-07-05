@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB7DBAE24AF7D7E0081551F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7DBAD24AF7D7E0081551F /* Assets.xcassets */; };
+		3BB7DBB124AF7D7E0081551F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7DBAF24AF7D7E0081551F /* Main.storyboard */; };
+		3BB7DBBC24AF7DF30081551F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7DBBB24AF7DF30081551F /* main.cpp */; };
+		554FAD838D5FB2F7BB764668 /* Pods_Move_Square.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EE4788779ABA04BAAA91A7 /* Pods_Move_Square.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14EE4788779ABA04BAAA91A7 /* Pods_Move_Square.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Move_Square.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B74E4B2443FE5AA9269DBD /* Pods-Move_Square.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Move_Square.release.xcconfig"; path = "Target Support Files/Pods-Move_Square/Pods-Move_Square.release.xcconfig"; sourceTree = "<group>"; };
+		3BB7DBA424AF7D7D0081551F /* Move_Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Move_Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB7DBAD24AF7D7E0081551F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BB7DBB024AF7D7E0081551F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BB7DBB224AF7D7E0081551F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB7DBB524AF7D7E0081551F /* Move_Square.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Move_Square.entitlements; sourceTree = "<group>"; };
+		3BB7DBBB24AF7DF30081551F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DA1204D8A37892B7F4C65EC1 /* Pods-Move_Square.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Move_Square.debug.xcconfig"; path = "Target Support Files/Pods-Move_Square/Pods-Move_Square.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB7DBA124AF7D7D0081551F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554FAD838D5FB2F7BB764668 /* Pods_Move_Square.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB7DB9B24AF7D7D0081551F = {
+			isa = PBXGroup;
+			children = (
+				3BB7DBA624AF7D7D0081551F /* Move_Square */,
+				3BB7DBA524AF7D7D0081551F /* Products */,
+				687E3C7318BD79DFDB27B661 /* Pods */,
+				7BF3CECA92A6BB9076226F3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB7DBA524AF7D7D0081551F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB7DBA424AF7D7D0081551F /* Move_Square.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB7DBA624AF7D7D0081551F /* Move_Square */ = {
+			isa = PBXGroup;
+			children = (
+				3BB7DBAD24AF7D7E0081551F /* Assets.xcassets */,
+				3BB7DBAF24AF7D7E0081551F /* Main.storyboard */,
+				3BB7DBB224AF7D7E0081551F /* Info.plist */,
+				3BB7DBB524AF7D7E0081551F /* Move_Square.entitlements */,
+				3BB7DBBB24AF7DF30081551F /* main.cpp */,
+			);
+			path = Move_Square;
+			sourceTree = "<group>";
+		};
+		687E3C7318BD79DFDB27B661 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA1204D8A37892B7F4C65EC1 /* Pods-Move_Square.debug.xcconfig */,
+				27B74E4B2443FE5AA9269DBD /* Pods-Move_Square.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BF3CECA92A6BB9076226F3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14EE4788779ABA04BAAA91A7 /* Pods_Move_Square.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB7DBA324AF7D7D0081551F /* Move_Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB7DBB824AF7D7E0081551F /* Build configuration list for PBXNativeTarget "Move_Square" */;
+			buildPhases = (
+				F8EEA12C05EBE8F93BB8D5CA /* [CP] Check Pods Manifest.lock */,
+				3BB7DBA024AF7D7D0081551F /* Sources */,
+				3BB7DBA124AF7D7D0081551F /* Frameworks */,
+				3BB7DBA224AF7D7D0081551F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Move_Square;
+			productName = Move_Square;
+			productReference = 3BB7DBA424AF7D7D0081551F /* Move_Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB7DB9C24AF7D7D0081551F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Zsy;
+				TargetAttributes = {
+					3BB7DBA324AF7D7D0081551F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3BB7DB9F24AF7D7D0081551F /* Build configuration list for PBXProject "Move_Square" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB7DB9B24AF7D7D0081551F;
+			productRefGroup = 3BB7DBA524AF7D7D0081551F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB7DBA324AF7D7D0081551F /* Move_Square */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB7DBA224AF7D7D0081551F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB7DBAE24AF7D7E0081551F /* Assets.xcassets in Resources */,
+				3BB7DBB124AF7D7E0081551F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8EEA12C05EBE8F93BB8D5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Move_Square-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB7DBA024AF7D7D0081551F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB7DBBC24AF7DF30081551F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BB7DBAF24AF7D7E0081551F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB7DBB024AF7D7E0081551F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB7DBB624AF7D7E0081551F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BB7DBB724AF7D7E0081551F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BB7DBB924AF7D7E0081551F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1204D8A37892B7F4C65EC1 /* Pods-Move_Square.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Move_Square/Move_Square.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57HG9ZXHQZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Move_Square/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsy.Move-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BB7DBBA24AF7D7E0081551F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B74E4B2443FE5AA9269DBD /* Pods-Move_Square.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Move_Square/Move_Square.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57HG9ZXHQZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Move_Square/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsy.Move-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB7DB9F24AF7D7D0081551F /* Build configuration list for PBXProject "Move_Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB7DBB624AF7D7E0081551F /* Debug */,
+				3BB7DBB724AF7D7E0081551F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB7DBB824AF7D7E0081551F /* Build configuration list for PBXNativeTarget "Move_Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB7DBB924AF7D7E0081551F /* Debug */,
+				3BB7DBBA24AF7D7E0081551F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB7DB9C24AF7D7D0081551F /* Project object */;
+}

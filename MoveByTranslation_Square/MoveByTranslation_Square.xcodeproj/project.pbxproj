@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B30265624B227430093DB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B30265524B227430093DB28 /* Assets.xcassets */; };
+		3B30265924B227430093DB28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B30265724B227430093DB28 /* Main.storyboard */; };
+		3B30266424B227840093DB28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B30266324B227840093DB28 /* main.cpp */; };
+		439A55B35B6BF4688A779227 /* Pods_MoveByTranslation_Square.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4562AC1E8300C5BD2B6381A /* Pods_MoveByTranslation_Square.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B30264C24B227410093DB28 /* MoveByTranslation_Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveByTranslation_Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B30265524B227430093DB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B30265824B227430093DB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B30265A24B227430093DB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B30265D24B227430093DB28 /* MoveByTranslation_Square.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoveByTranslation_Square.entitlements; sourceTree = "<group>"; };
+		3B30266324B227840093DB28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A20B994255FD284F13270C0E /* Pods-MoveByTranslation_Square.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveByTranslation_Square.release.xcconfig"; path = "Target Support Files/Pods-MoveByTranslation_Square/Pods-MoveByTranslation_Square.release.xcconfig"; sourceTree = "<group>"; };
+		A4562AC1E8300C5BD2B6381A /* Pods_MoveByTranslation_Square.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveByTranslation_Square.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DC26B921E7D9143F1A69B5 /* Pods-MoveByTranslation_Square.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveByTranslation_Square.debug.xcconfig"; path = "Target Support Files/Pods-MoveByTranslation_Square/Pods-MoveByTranslation_Square.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B30264924B227410093DB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439A55B35B6BF4688A779227 /* Pods_MoveByTranslation_Square.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DADAA6EEDB3527F0C49539A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8DC26B921E7D9143F1A69B5 /* Pods-MoveByTranslation_Square.debug.xcconfig */,
+				A20B994255FD284F13270C0E /* Pods-MoveByTranslation_Square.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		35427A7848127955BB7A0A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4562AC1E8300C5BD2B6381A /* Pods_MoveByTranslation_Square.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B30264324B227410093DB28 = {
+			isa = PBXGroup;
+			children = (
+				3B30264E24B227410093DB28 /* MoveByTranslation_Square */,
+				3B30264D24B227410093DB28 /* Products */,
+				0DADAA6EEDB3527F0C49539A /* Pods */,
+				35427A7848127955BB7A0A2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B30264D24B227410093DB28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B30264C24B227410093DB28 /* MoveByTranslation_Square.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B30264E24B227410093DB28 /* MoveByTranslation_Square */ = {
+			isa = PBXGroup;
+			children = (
+				3B30265524B227430093DB28 /* Assets.xcassets */,
+				3B30265724B227430093DB28 /* Main.storyboard */,
+				3B30265A24B227430093DB28 /* Info.plist */,
+				3B30265D24B227430093DB28 /* MoveByTranslation_Square.entitlements */,
+				3B30266324B227840093DB28 /* main.cpp */,
+			);
+			path = MoveByTranslation_Square;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B30264B24B227410093DB28 /* MoveByTranslation_Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B30266024B227430093DB28 /* Build configuration list for PBXNativeTarget "MoveByTranslation_Square" */;
+			buildPhases = (
+				AD4C00FA171C4619F6F5EF9D /* [CP] Check Pods Manifest.lock */,
+				3B30264824B227410093DB28 /* Sources */,
+				3B30264924B227410093DB28 /* Frameworks */,
+				3B30264A24B227410093DB28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveByTranslation_Square;
+			productName = MoveByTranslation_Square;
+			productReference = 3B30264C24B227410093DB28 /* MoveByTranslation_Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B30264424B227410093DB28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Zsy;
+				TargetAttributes = {
+					3B30264B24B227410093DB28 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B30264724B227410093DB28 /* Build configuration list for PBXProject "MoveByTranslation_Square" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B30264324B227410093DB28;
+			productRefGroup = 3B30264D24B227410093DB28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B30264B24B227410093DB28 /* MoveByTranslation_Square */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B30264A24B227410093DB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30265624B227430093DB28 /* Assets.xcassets in Resources */,
+				3B30265924B227430093DB28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD4C00FA171C4619F6F5EF9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoveByTranslation_Square-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B30264824B227410093DB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30266424B227840093DB28 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B30265724B227430093DB28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B30265824B227430093DB28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B30265E24B227430093DB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3B30265F24B227430093DB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B30266124B227430093DB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8DC26B921E7D9143F1A69B5 /* Pods-MoveByTranslation_Square.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MoveByTranslation_Square/MoveByTranslation_Square.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57HG9ZXHQZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MoveByTranslation_Square/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsy.MoveByTranslation-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B30266224B227430093DB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20B994255FD284F13270C0E /* Pods-MoveByTranslation_Square.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MoveByTranslation_Square/MoveByTranslation_Square.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57HG9ZXHQZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MoveByTranslation_Square/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsy.MoveByTranslation-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B30264724B227410093DB28 /* Build configuration list for PBXProject "MoveByTranslation_Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B30265E24B227430093DB28 /* Debug */,
+				3B30265F24B227430093DB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B30266024B227430093DB28 /* Build configuration list for PBXNativeTarget "MoveByTranslation_Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B30266124B227430093DB28 /* Debug */,
+				3B30266224B227430093DB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B30264424B227410093DB28 /* Project object */;
+}

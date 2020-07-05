@@ -1,0 +1,6 @@
+framework module Pods_MoveByTranslation_Square {
+  umbrella header "Pods-MoveByTranslation_Square-umbrella.h"
+
+  export *
+  module * { export * }
+}
