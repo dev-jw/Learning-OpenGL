@@ -36,11 +36,15 @@ void SetupRC()
     //设置三角形，其中数组vVert包含所有3个顶点的x,y,笛卡尔坐标对。
     GLfloat vVerts[] = {
         -0.5f,0.0f,0.0f,
+        -0.5f,0.5f,0.0f,
+        0.5f,0.5f,0.0f,
+        -0.5f,0.0f,0.0f,
         0.5f,0.0f,0.0f,
-        0.0f,0.5f,0.0f,
+        0.5f,0.5f,0.0f,
+        
     };
     //批次处理
-    triangleBatch.Begin(GL_TRIANGLES,3);
+    triangleBatch.Begin(GL_TRIANGLES,6);
     triangleBatch.CopyVertexData3f(vVerts);
     triangleBatch.End();
 }
