@@ -27,12 +27,14 @@ GLTriangleBatch torusBatch;
 
 void SetupRC() {
     glClearColor(0.0f,0.0f,0.0f,1.0f);
-    glEnable(GL_CULL_FACE | GL_DEPTH_TEST);
-    
+
     shaderManager.InitializeStockShaders();
     
     gltMakeTorus(torusBatch, 0.4f, 0.15f, 30.0, 30.0);
-    glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
+    
+    glEnable(GL_CULL_FACE);
+    glPolygonMode(GL_BACK, GL_FILL);
+    glEnable(GL_DEPTH_TEST);
 }
 
 void RenderScene() {
@@ -42,7 +44,7 @@ void RenderScene() {
     
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
     
-    M3DMatrix44f mTranslate, mRotate, mModelView, mModelViewProjection;
+    M3DMatrix44f mTranslate, mRotate, mModelView;
     
     m3dTranslationMatrix44(mTranslate, 0.0f, 0.0f, -2.5f);
     
@@ -50,10 +52,11 @@ void RenderScene() {
 
     m3dMatrixMultiply44(mModelView, mTranslate, mRotate);
     
-    m3dMatrixMultiply44(mModelViewProjection, viewFrustum.GetProjectionMatrix(), mModelView);
+//    m3dMatrixMultiply44(mModelViewProjection, viewFrustum.GetProjectionMatrix(), mModelView);
     
     GLfloat vRed[] = {1.0, 0.0, 0.0, 1.0f};
-    shaderManager.UseStockShader(GLT_SHADER_FLAT, mModelViewProjection, vRed);
+    
+    shaderManager.UseStockShader(GLT_SHADER_DEFAULT_LIGHT, mModelView, viewFrustum.GetProjectionMatrix(), vRed);
     torusBatch.Draw();
     
     glutSwapBuffers();

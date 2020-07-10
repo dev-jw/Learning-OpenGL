@@ -1,0 +1,6 @@
+framework module Pods_Torus_ {
+  umbrella header "Pods-Torus_-umbrella.h"
+
+  export *
+  module * { export * }
+}
