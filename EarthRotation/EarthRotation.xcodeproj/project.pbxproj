@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0A046C24C035CA001CA0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0A046B24C035CA001CA0C8 /* Assets.xcassets */; };
+		6D0A046F24C035CA001CA0C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0A046D24C035CA001CA0C8 /* Main.storyboard */; };
+		6D0A047A24C03702001CA0C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D0A047924C03702001CA0C8 /* main.cpp */; };
+		ADA05FAF1CE896A2F6F5D406 /* Pods_EarthRotation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81AFD73703CEF6B03D891B /* Pods_EarthRotation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D0A046224C035C9001CA0C8 /* EarthRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0A046B24C035CA001CA0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D0A046E24C035CA001CA0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D0A047024C035CA001CA0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0A047324C035CA001CA0C8 /* EarthRotation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EarthRotation.entitlements; sourceTree = "<group>"; };
+		6D0A047924C03702001CA0C8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8D81AFD73703CEF6B03D891B /* Pods_EarthRotation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarthRotation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A15B118D56A858E4F54E0E /* Pods-EarthRotation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthRotation.release.xcconfig"; path = "Target Support Files/Pods-EarthRotation/Pods-EarthRotation.release.xcconfig"; sourceTree = "<group>"; };
+		B7FB8368E9BF5B24C82E6C4F /* Pods-EarthRotation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthRotation.debug.xcconfig"; path = "Target Support Files/Pods-EarthRotation/Pods-EarthRotation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D0A045F24C035C9001CA0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA05FAF1CE896A2F6F5D406 /* Pods_EarthRotation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D0A045924C035C9001CA0C8 = {
+			isa = PBXGroup;
+			children = (
+				6D0A046424C035C9001CA0C8 /* EarthRotation */,
+				6D0A046324C035C9001CA0C8 /* Products */,
+				BEE3AD3A07F6D533E2ACF285 /* Pods */,
+				D7EACC072E531551D255A99C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D0A046324C035C9001CA0C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D0A046224C035C9001CA0C8 /* EarthRotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D0A046424C035C9001CA0C8 /* EarthRotation */ = {
+			isa = PBXGroup;
+			children = (
+				6D0A047924C03702001CA0C8 /* main.cpp */,
+				6D0A046B24C035CA001CA0C8 /* Assets.xcassets */,
+				6D0A046D24C035CA001CA0C8 /* Main.storyboard */,
+				6D0A047024C035CA001CA0C8 /* Info.plist */,
+				6D0A047324C035CA001CA0C8 /* EarthRotation.entitlements */,
+			);
+			path = EarthRotation;
+			sourceTree = "<group>";
+		};
+		BEE3AD3A07F6D533E2ACF285 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB8368E9BF5B24C82E6C4F /* Pods-EarthRotation.debug.xcconfig */,
+				B4A15B118D56A858E4F54E0E /* Pods-EarthRotation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7EACC072E531551D255A99C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D81AFD73703CEF6B03D891B /* Pods_EarthRotation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D0A046124C035C9001CA0C8 /* EarthRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0A047624C035CA001CA0C8 /* Build configuration list for PBXNativeTarget "EarthRotation" */;
+			buildPhases = (
+				4344CA904C1C71560F07BAB7 /* [CP] Check Pods Manifest.lock */,
+				6D0A045E24C035C9001CA0C8 /* Sources */,
+				6D0A045F24C035C9001CA0C8 /* Frameworks */,
+				6D0A046024C035C9001CA0C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthRotation;
+			productName = EarthRotation;
+			productReference = 6D0A046224C035C9001CA0C8 /* EarthRotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D0A045A24C035C9001CA0C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = neotv;
+				TargetAttributes = {
+					6D0A046124C035C9001CA0C8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 6D0A045D24C035C9001CA0C8 /* Build configuration list for PBXProject "EarthRotation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D0A045924C035C9001CA0C8;
+			productRefGroup = 6D0A046324C035C9001CA0C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D0A046124C035C9001CA0C8 /* EarthRotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D0A046024C035C9001CA0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0A046C24C035CA001CA0C8 /* Assets.xcassets in Resources */,
+				6D0A046F24C035CA001CA0C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4344CA904C1C71560F07BAB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarthRotation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D0A045E24C035C9001CA0C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0A047A24C03702001CA0C8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D0A046D24C035CA001CA0C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D0A046E24C035CA001CA0C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D0A047424C035CA001CA0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6D0A047524C035CA001CA0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D0A047724C035CA001CA0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FB8368E9BF5B24C82E6C4F /* Pods-EarthRotation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EarthRotation/EarthRotation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EarthRotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianjingquan.EarthRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D0A047824C035CA001CA0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A15B118D56A858E4F54E0E /* Pods-EarthRotation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EarthRotation/EarthRotation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EarthRotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianjingquan.EarthRotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D0A045D24C035C9001CA0C8 /* Build configuration list for PBXProject "EarthRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0A047424C035CA001CA0C8 /* Debug */,
+				6D0A047524C035CA001CA0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0A047624C035CA001CA0C8 /* Build configuration list for PBXNativeTarget "EarthRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0A047724C035CA001CA0C8 /* Debug */,
+				6D0A047824C035CA001CA0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D0A045A24C035C9001CA0C8 /* Project object */;
+}

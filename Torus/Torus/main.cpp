@@ -34,7 +34,7 @@ void SetupRC() {
     
     glEnable(GL_CULL_FACE);
     glPolygonMode(GL_BACK, GL_FILL);
-    glEnable(GL_DEPTH_TEST);
+//    glEnable(GL_DEPTH_TEST);
 }
 
 void RenderScene() {
