@@ -28,6 +28,37 @@ GLfloat verts[] = {
     -blockSize,  blockSize, 0.0f,
 };
 
+GLuint                textures[1];
+
+bool LoadBMPTexture(const char *szFileName, GLenum minFilter, GLenum magFilter, GLenum wrapMode);
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// Load in a BMP file as a texture. Allows specification of the filters and the wrap mode
+bool LoadBMPTexture(const char *szFileName, GLenum minFilter, GLenum magFilter, GLenum wrapMode)
+{
+    GLbyte *pBits;
+    GLint iWidth, iHeight;
+    
+    pBits = gltReadBMPBits(szFileName, &iWidth, &iHeight);
+    if(pBits == NULL)
+        return false;
+    
+    // Set Wrap modes
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, wrapMode);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, wrapMode);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, minFilter);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, magFilter);
+    
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, iWidth, iHeight, 0, GL_BGR, GL_UNSIGNED_BYTE, pBits);
+    
+    // Do I need to generate mipmaps?
+    if(minFilter == GL_LINEAR_MIPMAP_LINEAR || minFilter == GL_LINEAR_MIPMAP_NEAREST || minFilter == GL_NEAREST_MIPMAP_LINEAR || minFilter == GL_NEAREST_MIPMAP_NEAREST)
+        glGenerateMipmap(GL_TEXTURE_2D);
+    
+    return true;
+}
+
 void ChangeSize(int w, int h) {
     glViewport(0, 0, w, h);
 }
@@ -39,6 +70,12 @@ void SetupRC() {
     batch.Begin(GL_TRIANGLE_FAN, 4);
     batch.CopyVertexData3f(verts);
     batch.End();
+
+    glGenTextures(1, textures);
+    glBindTexture(GL_TEXTURE_2D, textures[0]);
+    LoadBMPTexture("wall.bmp", GL_LINEAR_MIPMAP_LINEAR, GL_LINEAR, GL_REPEAT);
+
+    
 }
 
 void RenderScene() {

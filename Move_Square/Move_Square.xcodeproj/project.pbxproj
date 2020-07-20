@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B9DF8D624B9E3870017F0A0 /* wall.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3B9DF8D524B9E3870017F0A0 /* wall.bmp */; };
 		3BB7DBAE24AF7D7E0081551F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7DBAD24AF7D7E0081551F /* Assets.xcassets */; };
 		3BB7DBB124AF7D7E0081551F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7DBAF24AF7D7E0081551F /* Main.storyboard */; };
 		3BB7DBBC24AF7DF30081551F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7DBBB24AF7DF30081551F /* main.cpp */; };
@@ -16,6 +17,7 @@
 /* Begin PBXFileReference section */
 		14EE4788779ABA04BAAA91A7 /* Pods_Move_Square.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Move_Square.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B74E4B2443FE5AA9269DBD /* Pods-Move_Square.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Move_Square.release.xcconfig"; path = "Target Support Files/Pods-Move_Square/Pods-Move_Square.release.xcconfig"; sourceTree = "<group>"; };
+		3B9DF8D524B9E3870017F0A0 /* wall.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = wall.bmp; sourceTree = "<group>"; };
 		3BB7DBA424AF7D7D0081551F /* Move_Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Move_Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB7DBAD24AF7D7E0081551F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BB7DBB024AF7D7E0081551F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		3BB7DBA624AF7D7D0081551F /* Move_Square */ = {
 			isa = PBXGroup;
 			children = (
+				3B9DF8D524B9E3870017F0A0 /* wall.bmp */,
 				3BB7DBAD24AF7D7E0081551F /* Assets.xcassets */,
 				3BB7DBAF24AF7D7E0081551F /* Main.storyboard */,
 				3BB7DBB224AF7D7E0081551F /* Info.plist */,
@@ -142,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9DF8D624B9E3870017F0A0 /* wall.bmp in Resources */,
 				3BB7DBAE24AF7D7E0081551F /* Assets.xcassets in Resources */,
 				3BB7DBB124AF7D7E0081551F /* Main.storyboard in Resources */,
 			);

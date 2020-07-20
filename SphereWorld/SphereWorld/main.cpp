@@ -122,7 +122,7 @@ void SetupRC() {
     glBindTexture(GL_TEXTURE_2D, uiTexture[1]);
     LoadTGATexture("marslike.tga", GL_LINEAR_MIPMAP_LINEAR, GL_LINEAR, GL_CLAMP_TO_EDGE);
     
-    glBindTexture(GL_TEXTURE_2D, uiTexture[1]);
+    glBindTexture(GL_TEXTURE_2D, uiTexture[2]);
     LoadTGATexture("moonlike.tga", GL_LINEAR_MIPMAP_LINEAR, GL_LINEAR, GL_CLAMP_TO_EDGE);
 }
 
@@ -139,10 +139,25 @@ void RenderScene() {
     cameraFrame.GetCameraMatrix(mCamera);
     modelViewMatrix.PushMatrix(mCamera);
     
+    // 镜面
+    modelViewMatrix.PushMatrix();
+    modelViewMatrix.Scale(1.0f, -1.0f, 1.0f);
+    modelViewMatrix.Translate(0.0f, 0.8f, 0.0f);
+    glFrontFace(GL_CW);
+    DrawToursAndSphere(yRot);
+    glFrontFace(GL_CCW);
+    modelViewMatrix.PopMatrix();
+    
+    // 绘制地板
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glBindTexture(GL_TEXTURE_2D, uiTexture[0]);
-    //    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-    shaderManager.UseStockShader(GLT_SHADER_TEXTURE_MODULATE, transformPipeLine.GetModelViewProjectionMatrix(), vFloorColor, 0);
+    shaderManager.UseStockShader(GLT_SHADER_TEXTURE_MODULATE,
+                                 transformPipeLine.GetModelViewProjectionMatrix(),
+                                 vFloorColor,
+                                 0);
     floorBatch.Draw();
+    glDisable(GL_BLEND);
     
     DrawToursAndSphere(yRot);
     
@@ -155,7 +170,22 @@ void RenderScene() {
 
 void DrawToursAndSphere(GLfloat yRot) {
     static GLfloat vWhite[] = { 1.0f, 1.0f, 1.0f, 1.0f };
-    static GLfloat vLightPos[] = {0.0f, 3.0f, 0.0f, 1.0f};
+    static GLfloat vLightPos[] = { 0.0f, 3.0f, 0.0f, 1.0f };
+    
+    // Get the light position in eye space
+    M3DVector4f    vLightTransformed;
+    M3DMatrix44f mCamera;
+    modelViewMatrix.GetMatrix(mCamera);
+    m3dTransformVector4(vLightTransformed, vLightPos, mCamera);
+    
+    // 光源
+    modelViewMatrix.PushMatrix();
+    modelViewMatrix.Translatev(vLightPos);
+    shaderManager.UseStockShader(GLT_SHADER_FLAT,
+                                 transformPipeLine.GetModelViewProjectionMatrix(),
+                                 vWhite);
+    sphereBatch.Draw();
+    modelViewMatrix.PopMatrix();
     
     // 自转球
     modelViewMatrix.Translate(0.0f, 0.2f, -2.5);
@@ -166,7 +196,7 @@ void DrawToursAndSphere(GLfloat yRot) {
     shaderManager.UseStockShader(GLT_SHADER_TEXTURE_POINT_LIGHT_DIFF,
                                  transformPipeLine.GetModelViewMatrix(),
                                  transformPipeLine.GetProjectionMatrix(),
-                                 vLightPos,
+                                 vLightTransformed,
                                  vWhite,
                                  0);
     torusBatch.Draw();
@@ -181,20 +211,21 @@ void DrawToursAndSphere(GLfloat yRot) {
     shaderManager.UseStockShader(GLT_SHADER_TEXTURE_POINT_LIGHT_DIFF,
                                  transformPipeLine.GetModelViewMatrix(),
                                  transformPipeLine.GetProjectionMatrix(),
-                                 vLightPos,
+                                 vLightTransformed,
                                  vWhite,
                                  0);
     sphereBatch.Draw();
     modelViewMatrix.PopMatrix();
     
     // 随机小球
+    glBindTexture(GL_TEXTURE_2D, uiTexture[2]);
     for (int i = 0; i < NUM_SPHERES; i++) {
         modelViewMatrix.PushMatrix();
         modelViewMatrix.MultMatrix(spheres[i]);
         shaderManager.UseStockShader(GLT_SHADER_TEXTURE_POINT_LIGHT_DIFF,
                                      transformPipeLine.GetModelViewMatrix(),
                                      transformPipeLine.GetProjectionMatrix(),
-                                     vLightPos,
+                                     vLightTransformed,
                                      vWhite,
                                      0);
         sphereBatch.Draw();
